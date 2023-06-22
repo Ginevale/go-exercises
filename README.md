@@ -1,6 +1,6 @@
 # go-exercises
 
-This repository contains all of the exercises with <b>Go<b> porgramming language and <b>Git<b>.
+This repository contains all of the exercises with <b>Go porgramming language and <b>Git.
 
 <details>
 <summary>exercise-one</summary>
