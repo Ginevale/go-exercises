@@ -9,6 +9,3 @@ to try this exercise you can go on GitHub and, by selecting the branch "exercise
 <br>in the terminal as a result. 
 
 </details>
----
-> Dici di voler fare cose belle, vediamo se abbiamo la stessa definizione
-- Lorenzo Cazzoli
