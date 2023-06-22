@@ -12,5 +12,5 @@ This repository contains all of the exercises with __Go__ porgramming language a
 cd hello
 go run .
 ```
-* As a result, you should be able to see "Hello World!" printed in theh terminal
+* As a result, you should be able to see "Hello World!" printed in the terminal
 </details>
