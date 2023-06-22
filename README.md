@@ -7,7 +7,7 @@ This repository contains all of the exercises with __Go__ porgramming language a
 
 * Enter in the hello folder
 * Run the programm _hello.go_
-* Type in the terminal the following commands and "Hello World!" will be printed as a result
+* Type in the terminal the following commands and "Hello World" will be printed as a result
 ```bash
 cd hello
 go run .
