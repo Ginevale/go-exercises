@@ -13,5 +13,4 @@ cd hello
 go run .
 ```
 * As a result, you should be able to see "Hello World!" printed in theh terminal
-
 </details>
