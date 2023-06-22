@@ -14,3 +14,17 @@ go run .
 > Hello, World
 ```
 </details>
+
+<details>
+<summary>exercise-two</summary>
+
+* Enter in the function folder
+* Run the programm _function.go_
+* Type in the terminal the following commands and "Hello World" alongside with "12" will be printed as results
+```bash
+cd function
+go run function.go
+> Hello, World
+> 12
+```
+</details>
