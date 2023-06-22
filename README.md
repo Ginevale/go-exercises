@@ -11,6 +11,6 @@ This repository contains all of the exercises with __Go__ porgramming language a
 ```bash
 cd hello
 go run .
-Hello, World!
+Hello, World
 ```
 </details>
