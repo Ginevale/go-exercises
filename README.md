@@ -27,4 +27,18 @@ go run function.go
 > Hello, World
 > 12
 ```
+<details>
+<summary>bonus</summary>
+
+* Enter in the function folder
+* Run the programm _function-bonus.go_
+* Type in the terminal the following commands and "Your result is" alongside with the sum of the two numbers you chose will be printed as results
+```bash
+cd function-bonus
+go run function-bonus.go
+> Type a number 
+> Type an other numer
+> Your result is <sum>
+```
+</details>
 </details>
