@@ -8,12 +8,12 @@ func sum(a, b int) int {
 
 func main() {
 	var x int
-	fmt.Println("Type a numer ")
+	fmt.Println("Type a number ")
 	fmt.Scanln(&x)
 	x = int(x)
 
 	var y int
-	fmt.Println("Type an other numer ")
+	fmt.Println("Type an other number ")
 	fmt.Scanln(&y)
 	y = int(y)
 

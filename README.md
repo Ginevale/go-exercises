@@ -37,8 +37,26 @@ go run function.go
 cd function-bonus
 go run function-bonus.go
 > Type a number 
-> Type an other numer
+> Type an other number
 > Your result is <sum>
 ```
 </details>
+
+<details>
+<summary>bonus-bonus</summary>
+
+* Enter in the function folder
+* Run the programm _bonus-bonus-ex-2.go_
+* Type in the terminal the following commands and "Your result is" alongside with the result of the operation you chose will be printed
+* If you use invalid operators this message will appear: `Operation not supported`
+```bash
+cd bonus-bonus-ex-2
+go run bonus-bonus-ex-2.go
+> Type a number 
+> Choose an operator
+> Type an other number
+> Your result is <num>
+```
+</details>
+
 </details>
