@@ -30,7 +30,7 @@ go run function.go
 <details>
 <summary>bonus</summary>
 
-* Enter in the function folder
+* Enter in the function-bonus folder
 * Run the programm _function-bonus.go_
 * Type in the terminal the following commands and "Your result is" alongside with the sum of the two numbers you chose will be printed as results
 ```bash
@@ -45,7 +45,7 @@ go run function-bonus.go
 <details>
 <summary>bonus-bonus</summary>
 
-* Enter in the function folder
+* Enter in the bonus-bonus-ex-2 folder
 * Run the programm _bonus-bonus-ex-2.go_
 * Type in the terminal the following commands and "Your result is" alongside with the result of the operation you chose will be printed
 * If you use invalid operators this message will appear: `Operation not supported`
@@ -56,6 +56,20 @@ go run bonus-bonus-ex-2.go
 > Choose an operator
 > Type an other number
 > Your result is <num>
+```
+</details>
+
+<details>
+<summary>3bonus</summary>
+
+* Enter in the 3b-ex-2 folder
+* Run the programm _3b-ex-2.go_
+* Type in the terminal the following commands and it will be print the full operation alongside with its result 
+* If you type 0 when the programm asks the number of number this message will appear: `No operation required`
+* If you use invalid operators this message will appear: `Operation not supported`
+```bash
+cd 3b-ex-2
+go 3b-ex-2.go
 ```
 </details>
 
