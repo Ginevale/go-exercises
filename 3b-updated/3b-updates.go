@@ -68,9 +68,10 @@ func main() {
 			} else {
 				if operation == "/" {
 					div := first
-					for i := 1; i <= rep-1; i++ {
-						if nums[1] == 0 {
+					for i := 1; i < rep; i++ {
+						if nums[i] == 0 {
 							fmt.Println("Operation not supported")
+							return
 						} else {
 							div /= nums[i]
 						}
@@ -82,6 +83,7 @@ func main() {
 
 				} else {
 					fmt.Println("Operation not supported")
+					return
 				}
 			}
 
