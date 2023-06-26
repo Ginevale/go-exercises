@@ -67,7 +67,7 @@ go run bonus-bonus-ex-2.go
 * Type in the terminal the following commands and it will be print the full operation alongside with its result 
 * If you type 0 when the programm asks the number of number this message will appear: `No operation required`
 * If you use invalid operators this message will appear: `Operation not supported`
-* If you choose 0 as a number in the division then you will recieve an error
+* If you choose 0 as a number in the division then you will recieve an error: date time `Operation not supported`
 ```bash
 cd 3b-ex-2
 go 3b-ex-2.go
