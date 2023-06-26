@@ -62,8 +62,8 @@ go run bonus-bonus-ex-2.go
 <details>
 <summary>3bonus</summary>
 
-* Enter in the 3b-ex-2 folder or the 3b-switch folder
-* Run the programm _3b-ex-2.go_ or _3b-switch.go_
+* Enter in the 3b-switch folder
+* Run the programm _3b-switch.go_
 * Type in the terminal the following commands and it will be print the full operation alongside with its result 
 * If you type 0 when the programm asks the number of number this message will appear: `No operation required`
 * If you use invalid operators this message will appear: `Operation not supported`
