@@ -1,6 +1,30 @@
 package main
 
-import "fmt"
+import (
+	"errors"
+	"fmt"
+	"log"
+)
+
+func sum(a, b int) int {
+	return a + b
+}
+
+func diff(a, b int) int {
+	return a - b
+}
+
+func mul(a, b int) int {
+	return a * b
+}
+
+func div(a, b int) (int, error) {
+	if b == 0 {
+		return 0, errors.New("Operation not supported")
+	} else {
+		return a / b, nil
+	}
+}
 
 func res(array []int, operator string, result int) {
 	for i := 0; i < len(array)-1; i++ {
@@ -36,35 +60,24 @@ func main() {
 
 	total := nums[0]
 
-	switch {
-	case operation == "+":
-		for i := 1; i < rep; i++ {
-			total += nums[i]
-		}
+	for i := 1; i < rep; i++ {
+		switch {
+		case operation == "+":
+			total = sum(total, nums[i])
 
-	case operation == "-":
-		for i := 1; i < rep; i++ {
-			total -= nums[i]
-		}
+		case operation == "-":
+			total = diff(total, nums[i])
 
-	case operation == "*":
-		for i := 1; i < rep; i++ {
-			total *= nums[i]
-		}
+		case operation == "*":
+			total = mul(total, nums[i])
 
-	case operation == "/":
-		for i := 1; i < rep; i++ {
-			if nums[i] == 0 {
-				fmt.Println("Operation not supported")
-				return
-			} else {
-				total /= nums[i]
+		case operation == "/":
+			res, err := div(total, nums[i])
+			if err != nil {
+				log.Fatal(err)
 			}
+			total = res
 		}
-
-	default:
-		fmt.Println("Operation not supported")
-		return
+		res(nums, operation, total)
 	}
-	res(nums, operation, total)
 }
