@@ -70,6 +70,10 @@ go run bonus-bonus-ex-2.go
 ```bash
 cd 3b-ex-2
 go 3b-ex-2.go
+> Type a number 
+> Choose an operator
+> Type an other number
+> ...
 ```
 </details>
 
