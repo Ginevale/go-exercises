@@ -24,7 +24,7 @@ type SearchResponse struct {
 func main() {
 
 	var searchType string
-	fmt.Println("Choose what type of search")
+	fmt.Println("Choose a type of search")
 	fmt.Scanln(&searchType)
 	searchType = string(searchType)
 
